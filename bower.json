@@ -1,0 +1,19 @@
+{
+    "name": "x-juxtapose",
+    "version": "0.0.0",
+    "description": "A proof of concept to try to get JuxtaposeJS working inside of a web component",
+    "license": "MIT",
+    "main": "dist/x-juxtapose.html",
+    "keywords": [
+        "polymer",
+        "web-components"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "polymer": "Polymer/polymer#^0.5.1"
+    }
+}
