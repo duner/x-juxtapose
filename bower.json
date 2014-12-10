@@ -1,20 +1,25 @@
 {
-    "name": "x-juxtapose",
-    "version": "0.0.0",
-    "description": "A proof of concept to try to get JuxtaposeJS working inside of a web component",
-    "license": "MIT",
-    "main": "dist/x-juxtapose.html",
-    "keywords": [
-        "polymer",
-        "web-components"
-    ],
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components"
-    ],
-    "dependencies": {
-        "polymer": "Polymer/polymer#^0.5.1",
-        "juxtapose": "juxtapose"
-    }
+  "name": "x-juxtapose",
+  "version": "0.0.0",
+  "description": "A proof of concept to try to get JuxtaposeJS working inside of a web component",
+  "license": "MIT",
+  "main": "dist/x-juxtapose.html",
+  "keywords": [
+    "juxtapose"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.1",
+    "juxtapose": "juxtapose"
+  },
+  "homepage": "https://github.com/duner/x-juxtapose",
+  "authors": [
+    "duner <asduner@gmail.com>"
+  ]
 }
