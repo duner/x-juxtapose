@@ -2,10 +2,6 @@
 
 > A proof of concept to try to get JuxtaposeJS working inside of a web component
 
-## Demo
-
-[Check it live!](http://duner.github.io/x-juxtapose)
-
 ## Install
 
 Install the component using [Bower](http://bower.io/):
@@ -33,26 +29,20 @@ Or [download as ZIP](https://github.com/duner/x-juxtapose/archive/master.zip).
 3. Start using it!
 
     ```html
-    <x-juxtapose></x-juxtapose>
+    <x-juxtapose>
+        <jx-image src="">
+        <jx-image src="">
+    </x-juxtapose>
     ```
 
 ## Options
+
+**I'll get to this at some point; check the main [Juxtapose](http://github.com/nuknightlab/juxtapose) page for now."
 
 Attribute     | Options     | Default      | Description
 ---           | ---         | ---          | ---
 `foo`         | *string*    | `bar`        | Lorem ipsum dolor.
 
-## Methods
-
-Method        | Parameters   | Returns     | Description
----           | ---          | ---         | ---
-`unicorn()`   | None.        | Nothing.    | Magic stuff appears.
-
-## Events
-
-Event         | Description
----           | ---
-`onsomething` | Triggers when something happens.
 
 ## Development
 
